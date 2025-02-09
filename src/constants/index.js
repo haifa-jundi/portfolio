@@ -53,7 +53,7 @@ export const myProjects = [
       {
         id: 3,
         name: 'HTML',
-        path: getAssetPath('assets/html-5-logo.png'),
+        path: getAssetPath('/assets/html-5-logo.png'),
       },
       {
         id: 4,
@@ -100,7 +100,7 @@ export const myProjects = [
       {
         id: 3,
         name: 'HTML',
-        path: getAssetPath('assets/html-5-logo.png'),
+        path: getAssetPath('/assets/html-5-logo.png'),
       },
       {
         id: 4,
@@ -138,7 +138,7 @@ export const myProjects = [
       {
         id: 2,
         name: 'TailwindCSS',
-        path: getAssetPath('assets/tailwindcss.png'),
+        path: getAssetPath('/assets/tailwindcss.png'),
       },
       {
         id: 3,
