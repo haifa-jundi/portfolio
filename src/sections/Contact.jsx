@@ -3,6 +3,8 @@ import { useRef, useState } from 'react';
 
 import useAlert from '../hooks/useAlert.js';
 import Alert from '../components/Alert.jsx';
+import { getAssetPath } from '../utils';
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -72,7 +74,7 @@ const Contact = () => {
       {alert.show && <Alert {...alert} />}
 
       <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
+        <img src={getAssetPath("/assets/terminal.png")} alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
         <div className="contact-container">
           <h3 className="head-text">Let's talk</h3>
@@ -124,7 +126,7 @@ const Contact = () => {
             <button className="field-btn" type="submit" disabled={loading}>
               {loading ? 'Sending...' : 'Send Message'}
 
-              <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
+              <img src={getAssetPath('assets/arrow-up.png')} alt="arrow-up" className="field-btn_arrow" />
             </button>
           </form>
         </div>

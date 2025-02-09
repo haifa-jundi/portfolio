@@ -5,6 +5,8 @@ import { Suspense, useState } from 'react';
 // import Developer from '../components/Developer.jsx';
 // import CanvasLoader from '../components/Loading.jsx';
 import { workExperiences } from '../constants/index.js';
+import { getAssetPath } from '../utils';
+
 
 const WorkExperience = () => {
   const [animationName, setAnimationName] = useState('idle');
@@ -28,7 +30,7 @@ const WorkExperience = () => {
                     {/* Render icon without image for id 3 */}
                     {item.id !== 3 && item.icon && (
                       <div className="work-content_logo">
-                        <img className="w-full h-full" src={item.icon} alt="" />
+                        <img className="w-full h-full" src={getAssetPath(item.icon)} alt="" />
                       </div>
                     )}
                     {item.id === 3 && (
