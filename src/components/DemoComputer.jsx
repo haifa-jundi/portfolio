@@ -13,7 +13,7 @@ const DemoComputer = (props) => {
   const { nodes, materials, animations } = useGLTF(getAssetPath('/models/computer.glb'));
   const { actions } = useAnimations(animations, group);
 
-  const txt = useVideoTexture(props.texture ? getAssetPath(props.texture) : getAssetPath('textures/project/project1.mp4'));
+  const txt = useVideoTexture(props.texture ? getAssetPath(props.texture) : getAssetPath('/textures/project/project1.mp4'));
 
   useEffect(() => {
     if (txt) {
@@ -1012,6 +1012,6 @@ const DemoComputer = (props) => {
   );
 };
 
-useGLTF.preload(getAssetPath('models/computer.glb'));
+useGLTF.preload(getAssetPath('/models/computer.glb'));
 
 export default DemoComputer;
