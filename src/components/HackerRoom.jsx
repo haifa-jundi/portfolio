@@ -9,9 +9,9 @@ import { getAssetPath } from '../utils';
 import { useGLTF, useTexture } from '@react-three/drei';
 
 export function HackerRoom(props) {
-  const { nodes, materials } = useGLTF(getAssetPath('/models/hacker-room.glb'));
+  const { nodes, materials } = useGLTF(getAssetPath('models/hacker-room.glb'));
   
-  const monitortxt = useTexture(getAssetPath('/textures/desk/monitor.png'));
+  const monitortxt = useTexture(getAssetPath('textures/desk/monitor.png'));
 
   return (
     <group {...props} dispose={null}>
@@ -38,4 +38,4 @@ export function HackerRoom(props) {
   );
 }
 
-useGLTF.preload(getAssetPath('/models/hacker-room.glb'));
+useGLTF.preload(getAssetPath('models/hacker-room.glb'));

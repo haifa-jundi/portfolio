@@ -13,13 +13,13 @@ const Footer = () => {
       <div className="flex gap-3">
         <a href="https://github.com/HaifaAljundi" target="_blank" rel="noopener noreferrer">
           <div className="social-icon">
-            <img src={getAssetPath('/assets/github.svg')} alt="GitHub" className="w-1/2 h-1/2" />
+            <img src={getAssetPath('assets/github.svg')} alt="GitHub" className="w-1/2 h-1/2" />
           </div>
         </a>
 
         <a href="https://www.linkedin.com/in/haifa-jundi/" target="_blank" rel="noopener noreferrer">
           <div className="social-icon">
-            <img src={getAssetPath('/assets/linkedin-dark.svg')} alt="LinkedIn" className="w-1/2 h-1/2" />
+            <img src={getAssetPath('assets/linkedin-dark.svg')} alt="LinkedIn" className="w-1/2 h-1/2" />
           </div>
         </a>
       </div>

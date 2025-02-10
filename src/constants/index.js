@@ -33,44 +33,44 @@ export const myProjects = [
     subdesc:
       'Uses six optimized machine learning models to analyze patient data and make accurate predictions. It offers personalized healthcare plans based on prediction results and generated summaries. The system also features a Health Record Assistant powered by IBM watsonx, utilizing Retrieval Augmented Generation (RAG) to retrieve and summarize reports for both patients and medical practitioners, accompanied by a chatbot for further assistance.',
     href: 'https://doi.org/10.5281/zenodo.14699621',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/icons8-glucometer-96.png',
+    texture: 'textures/project/project1.mp4',
+    logo: 'assets/icons8-glucometer-96.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
       boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
-    spotlight: '/assets/spotlight2.png',
+    spotlight: 'assets/spotlight2.png',
     tags: [
       {
         id: 1,
         name: 'Jupyter',
-        path: '/assets/jupyter-logo.png',
+        path: 'assets/jupyter-logo.png',
       },
       {
         id: 2,
         name: 'Python',
-        path: '/assets/python-logo.png',
+        path: 'assets/python-logo.png',
       },
       {
         id: 3,
         name: 'HTML',
-        path: '/assets/html-5-logo.png',
+        path: 'assets/html-5-logo.png',
       },
       {
         id: 4,
         name: 'CSS',
-        path: '/assets/css3-logo.png',
+        path: 'assets/css3-logo.png',
       },
       {
         id: 5,
         name: 'JavaScript',
-        path: '/assets/javascript-logo.png',
+        path: 'assets/javascript-logo.png',
       },
       {
         id: 6,
         name: 'MogoDB',
-        path: '/assets/mongo-db-logo.png',
+        path: 'assets/mongo-db-logo.png',
       },
     ],
   },
@@ -80,39 +80,39 @@ export const myProjects = [
     subdesc:
       'By analyzing data on revolutions, humidity, and vibration, Futurefix utilizes LSTM models to predict maintenance needs. The integration of Gemini API provides contextual insights, ensuring timely interventions and minimizing elevator downtime.',
     href: 'https://github.com/HaifaAljundi/FutureFix.git',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/maintenance-logo.png',
+    texture: 'textures/project/project2.mp4',
+    logo: 'assets/maintenance-logo.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
       boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
-    spotlight: '/assets/spotlight2.png',
+    spotlight: 'assets/spotlight2.png',
     tags: [
       {
         id: 1,
         name: 'Jupyter',
-        path: '/assets/jupyter-logo.png',
+        path: 'assets/jupyter-logo.png',
       },
       {
         id: 2,
         name: 'Python',
-        path: '/assets/python-logo.png',
+        path: 'assets/python-logo.png',
       },
       {
         id: 3,
         name: 'HTML',
-        path: '/assets/html-5-logo.png',
+        path: 'assets/html-5-logo.png',
       },
       {
         id: 4,
         name: 'CSS',
-        path: '/assets/css3-logo.png',
+        path: 'assets/css3-logo.png',
       },
       {
         id: 5,
         name: 'JavaScript',
-        path: '/assets/javascript-logo.png',
+        path: 'assets/javascript-logo.png',
       },
     ],
   },
@@ -121,8 +121,8 @@ export const myProjects = [
     desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
     subdesc:
       'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    texture: 'textures/project/project3.mp4',
+    logo: 'assets/project-logo3.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -130,27 +130,27 @@ export const myProjects = [
       border: '0.2px solid rgba(208, 213, 221, 1)',
       boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
-    spotlight: '/assets/spotlight3.png',
+    spotlight: 'assets/spotlight3.png',
     tags: [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/react.svg',
+        path: 'assets/react.svg',
       },
       {
         id: 2,
         name: 'TailwindCSS',
-        path: '/assets/tailwindcss.png',
+        path: 'assets/tailwindcss.png',
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: 'assets/typescript.png',
       },
       {
         id: 4,
         name: 'Framer Motion',
-        path: '/assets/framer.png',
+        path: 'assets/framer.png',
       },
     ],
   },
@@ -174,7 +174,7 @@ export const workExperiences = [
     pos: 'Freenlance AI Trainer',
     duration: 'October 2024 – Present',
     title: "Evaluated and ranked AI-generated code, offering feedback to refine model performance and enhance output. Conducted data quality checks to identify outliers, ensuring training data consistency and model accuracy. Collaborated with cross-functional teams to optimize AI models and improve training for better performance.",
-    icon: '/assets/outlier.svg',
+    icon: 'assets/outlier.svg',
     animation: 'victory',
   },
   {
@@ -183,7 +183,7 @@ export const workExperiences = [
     pos: 'Machine Learning Trainee',
     duration: 'July 2024 – September 2024',
     title: "Collaborated with data scientists and engineers on AI-driven public sector projects, enhancing outcomes by developing machine learning models, refining algorithms for better accuracy and efficiency, and optimizing performance through data preprocessing, feature engineering, and model evaluation.",
-    icon: '/assets/Untitleddesign.svg',
+    icon: 'assets/Untitleddesign.svg',
     animation: 'clapping',
   },
   {
