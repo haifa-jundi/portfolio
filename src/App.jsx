@@ -5,8 +5,10 @@ import Navbar from './sections/Navbar.jsx';
 import Contact from './sections/Contact.jsx';
 import Projects from './sections/Projects.jsx';
 import WorkExperience from './sections/Experience.jsx';
+import ReactGA from 'react-ga4';
 
 const App = () => {
+  ReactGA.initialize('G-V5ECYZXV07');
   return (
     <main className="max-w-7xl mx-auto relative">
       <Navbar />

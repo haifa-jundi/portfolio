@@ -180,7 +180,7 @@ export const workExperiences = [
   {
     id: 2,
     name: 'Presidency of Digital Transformation Office',
-    pos: 'Machine Learning Trainee',
+    pos: 'Machine Learning Engineer Intern',
     duration: 'July 2024 – September 2024',
     title: "Collaborated with data scientists and engineers on AI-driven public sector projects, enhancing outcomes by developing machine learning models, refining algorithms for better accuracy and efficiency, and optimizing performance through data preprocessing, feature engineering, and model evaluation.",
     icon: 'assets/Untitleddesign.svg',
@@ -189,8 +189,8 @@ export const workExperiences = [
   {
     id: 3,
     name: 'Bluteq group',
-    pos: 'IT Support Specialist',
-    duration: '2022 - 2023',
+    pos: 'IT Support Specialist Intern',
+    duration: 'June 2022 - December 2022',
     title: "Documented technical issues and solutions to enhance a knowledge base, improving future support responses. Supported system maintenance and troubleshooting, ensuring optimal performance. Provided technical support for hardware, software, and network issues to minimize downtime.",
     icon: '',
     animation: 'salute',
