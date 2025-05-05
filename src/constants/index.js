@@ -170,24 +170,15 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Outlier',
-    pos: 'Freenlance AI Trainer',
-    duration: 'October 2024 – Present',
-    title: "Evaluated and ranked AI-generated code, offering feedback to refine model performance and enhance output. Conducted data quality checks to identify outliers, ensuring training data consistency and model accuracy. Collaborated with cross-functional teams to optimize AI models and improve training for better performance.",
-    icon: 'assets/outlier.svg',
-    animation: 'victory',
-  },
-  {
-    id: 2,
     name: 'Presidency of Digital Transformation Office',
-    pos: 'Machine Learning Engineer Intern',
+    pos: 'Machine Learning Engineer Trainee',
     duration: 'July 2024 – September 2024',
     title: "Collaborated with data scientists and engineers on AI-driven public sector projects, enhancing outcomes by developing machine learning models, refining algorithms for better accuracy and efficiency, and optimizing performance through data preprocessing, feature engineering, and model evaluation.",
     icon: 'assets/Untitleddesign.svg',
     animation: 'clapping',
   },
   {
-    id: 3,
+    id: 2,
     name: 'Bluteq group',
     pos: 'IT Support Specialist Intern',
     duration: 'June 2022 - December 2022',
