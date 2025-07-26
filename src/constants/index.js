@@ -169,9 +169,18 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 
 export const workExperiences = [
   {
+    id: 3,
+    name: 'Property Finder',
+    pos: 'Data Engineering Intern',
+    duration: 'May 2025 – August 2025',
+    title: "Developed 90+ comprehensive SQL scripts in Amazon Redshift for advanced data extraction and analytics procedures, processing over 50M+ records with detailed step-by-step documentation.",
+    icon: 'assets/propertyfinder.jpeg',
+    animation: 'clapping',
+  },
+  {
     id: 1,
     name: 'Presidency of Digital Transformation Office',
-    pos: 'Machine Learning Engineer Trainee',
+    pos: 'Machine Learning Intern',
     duration: 'July 2024 – September 2024',
     title: "Collaborated with data scientists and engineers on AI-driven public sector projects, enhancing outcomes by developing machine learning models, refining algorithms for better accuracy and efficiency, and optimizing performance through data preprocessing, feature engineering, and model evaluation.",
     icon: 'assets/Untitleddesign.svg',
@@ -180,7 +189,7 @@ export const workExperiences = [
   {
     id: 2,
     name: 'Bluteq group',
-    pos: 'IT Support Specialist Intern',
+    pos: 'IT Intern',
     duration: 'June 2022 - December 2022',
     title: "Documented technical issues and solutions to enhance a knowledge base, improving future support responses. Supported system maintenance and troubleshooting, ensuring optimal performance. Provided technical support for hardware, software, and network issues to minimize downtime.",
     icon: '',
