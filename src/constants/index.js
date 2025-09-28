@@ -33,7 +33,7 @@ export const myProjects = [
     subdesc:
       'Built an interactive Tableau dashboard through data exploration of 85,000+ COVID-19 records including cases, deaths, and vaccination trends. Extracted insights such as regions with 20% higher case growth, vaccination uptake disparities, and mortality-to-vaccine correlations. The dashboard supports data-driven public health decisions, enabling stakeholders to monitor pandemic dynamics, optimize resource allocation, and evaluate the effectiveness of interventions.',
     href: 'https://public.tableau.com/app/profile/haifa.aljundi/viz/CovidDataDashboard_17585897809820/Dashboard1',
-    texture: 'textures/project/Dashboard.png',
+    texture: 'textures/project/Dashboard.mp4',
     logo: 'assets/project-logo5.png',
     logoStyle: {
       backgroundColor: '#13202F',
