@@ -27,6 +27,38 @@ export const navLinks = [
 
 
 export const myProjects = [
+    {
+    title: 'Pandemic Data Exploration & Insights Dashboard',
+    desc: 'A comprehensive data exploration and visualization dashboard that analyzes pandemic-related data to provide actionable insights and trends.',
+    subdesc:
+      'Built an interactive Tableau dashboard through data exploration of 85,000+ COVID-19 records including cases, deaths, and vaccination trends. Extracted insights such as regions with 20% higher case growth, vaccination uptake disparities, and mortality-to-vaccine correlations. The dashboard supports data-driven public health decisions, enabling stakeholders to monitor pandemic dynamics, optimize resource allocation, and evaluate the effectiveness of interventions.',
+    href: 'https://public.tableau.com/app/profile/haifa.aljundi/viz/CovidDataDashboard_17585897809820/Dashboard1',
+    texture: 'textures/project/Dashboard.png',
+    logo: 'assets/project-logo5.png',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: 'assets/spotlight4.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Tableau',
+        path: 'assets/icons8-tableau.png',
+      },
+      {
+        id: 2,
+        name: 'SQL',
+        path: 'assets/icons8-sql.png',
+      },
+      {
+        id: 3,
+        name: 'Microsoft Excel',
+        path: 'assets/icons8-microsoft-excel.png',
+      },
+    ],
+  },
   {
     title: 'DiabetoAI - Diabetes Prediction System',
     desc: 'DiabetoAI is an innovative project that uses AI in predicting healthcare outcomes and preparing personalized healthcare plans per individual needs.',
