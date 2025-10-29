@@ -203,8 +203,8 @@ export const workExperiences = [
   {
     id: 3,
     name: 'Property Finder',
-    pos: 'Data Engineering Intern',
-    duration: 'May 2025 – August 2025',
+    pos: 'Data & AI Engineering Intern',
+    duration: 'May 2025 – October 2025',
     title: "Developed 90+ comprehensive SQL scripts in Amazon Redshift for advanced data extraction and analytics procedures, processing over 50M+ records with detailed step-by-step documentation.",
     icon: 'assets/propertyfinder.jpeg',
     animation: 'clapping',
