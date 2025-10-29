@@ -32,7 +32,7 @@ const About = () => {
             <img src={getAssetPath('assets/grid1.png')} alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Haifa Jundi</p>
+              <p className="grid-headtext">Hi, I’m Haifa Aljundi</p>
               <p className="grid-subtext">
               I am a Software Engineer, My efforts are centered on developing intelligent systems that are both innovative and efficient. 
               Enthusiastic about AI and ML
