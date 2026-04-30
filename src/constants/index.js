@@ -25,9 +25,8 @@ export const navLinks = [
   },
 ];
 
-
 export const myProjects = [
-    {
+  {
     title: 'Pandemic Data Exploration & Insights Dashboard',
     desc: 'A comprehensive data exploration and visualization dashboard that analyzes pandemic-related data to provide actionable insights and trends.',
     subdesc:
@@ -201,30 +200,23 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 
 export const workExperiences = [
   {
+    id: 4,
+    name: 'Mondia',
+    pos: 'AI / Data Engineer',
+    duration: 'August 2025 – Present',
+    title:
+      'Architected and deployed end-to-end AI/ML pipelines (ingestion, model serving, monitoring) for 10+ enterprise GenAI initiatives, reducing time-to-insight by 30% across business units. Designed LLMOps evaluation frameworks measuring agent accuracy, latency, and cost-per-query, presenting ROI benchmarks to C-suite and securing approval for 3 production GenAI rollouts. Built a reusable multi-provider LLM abstraction layer (Claude, OpenAI, Gemini) with prompt versioning and fallback routing, cutting new use-case onboarding time by 50%. Partnered with product and engineering teams to deliver agentic AI workflows integrating internal APIs and tools, automating manual processes and translating outputs into measurable business KPIs.',
+    icon: 'assets/mondia.jpeg',
+    animation: 'clapping',
+  },
+  {
     id: 3,
     name: 'Property Finder',
     pos: 'Data & AI Engineering Intern',
-    duration: 'May 2025 – October 2025',
-    title: "Developed 90+ comprehensive SQL scripts in Amazon Redshift for advanced data extraction and analytics procedures, processing over 50M+ records with detailed step-by-step documentation.",
+    duration: 'May 2025 – August 2025',
+    title:
+      'Developed 90+ comprehensive SQL scripts in Amazon Redshift for advanced data extraction and analytics procedures, processing over 50M+ records with detailed step-by-step documentation.',
     icon: 'assets/propertyfinder.jpeg',
     animation: 'clapping',
-  },
-  {
-    id: 1,
-    name: 'Presidency of Digital Transformation Office',
-    pos: 'Machine Learning Intern',
-    duration: 'July 2024 – September 2024',
-    title: "Collaborated with data scientists and engineers on AI-driven public sector projects, enhancing outcomes by developing machine learning models, refining algorithms for better accuracy and efficiency, and optimizing performance through data preprocessing, feature engineering, and model evaluation.",
-    icon: 'assets/Untitleddesign.svg',
-    animation: 'clapping',
-  },
-  {
-    id: 2,
-    name: 'Bluteq group',
-    pos: 'IT Intern',
-    duration: 'June 2022 - December 2022',
-    title: "Documented technical issues and solutions to enhance a knowledge base, improving future support responses. Supported system maintenance and troubleshooting, ensuring optimal performance. Provided technical support for hardware, software, and network issues to minimize downtime.",
-    icon: '',
-    animation: 'salute',
   },
 ];

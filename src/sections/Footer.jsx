@@ -24,7 +24,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <p className="text-white-500">© 2025 Haifa Aljundi. All rights reserved.</p>
+      <p className="text-white-500">© 2026 Haifa Aljundi. All rights reserved.</p>
     </footer>
   );
 };
