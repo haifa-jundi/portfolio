@@ -200,22 +200,31 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 
 export const workExperiences = [
   {
+    id: 2,
+    name: "Fujairah Crown Prince's Office",
+    pos: 'AI Engineer',
+    duration: 'January 2026 – Present',
+    title:
+      'Own the full lifecycle of a production LLM agent platform serving 14 government entities: GenAI architecture with RAG retrieval and agent tool calling, responsible-AI guardrails built in by design, SSO and RBAC with per-entity data isolation, full observability, and human approval on high-risk actions.',
+    animation: 'clapping',
+  },
+  {
     id: 4,
     name: 'Mondia',
-    pos: 'AI / Data Engineer',
-    duration: 'August 2025 – Present',
+    pos: 'AI Transformation Consultant',
+    duration: 'August 2025 – January 2026',
     title:
-      'Architected and deployed end-to-end AI/ML pipelines (ingestion, model serving, monitoring) for 10+ enterprise GenAI initiatives, reducing time-to-insight by 30% across business units. Designed LLMOps evaluation frameworks measuring agent accuracy, latency, and cost-per-query, presenting ROI benchmarks to C-suite and securing approval for 3 production GenAI rollouts. Built a reusable multi-provider LLM abstraction layer (Claude, OpenAI, Gemini) with prompt versioning and fallback routing, cutting new use-case onboarding time by 50%. Partnered with product and engineering teams to deliver agentic AI workflows integrating internal APIs and tools, automating manual processes and translating outputs into measurable business KPIs.',
+      'Translated business problems into AI solutions across 10+ use cases and 3 production rollouts. Built REST API integrations connecting LLM capabilities to enterprise systems on Azure and AWS with Docker and CI/CD, plus evaluation and monitoring frameworks (accuracy, latency, cost, quality) used as release gates.',
     icon: 'assets/mondia.jpeg',
     animation: 'clapping',
   },
   {
     id: 3,
     name: 'Property Finder',
-    pos: 'Data & AI Engineering Intern',
-    duration: 'May 2025 – August 2025',
+    pos: 'Data & AI Engineer',
+    duration: 'May 2023 – August 2025',
     title:
-      'Developed 90+ comprehensive SQL scripts in Amazon Redshift for advanced data extraction and analytics procedures, processing over 50M+ records with detailed step-by-step documentation.',
+      'Built and operated data and ML pipelines powering analytics and AI use cases at MENA\'s leading property marketplace, with automated testing, validation gates, and CI/CD to production.',
     icon: 'assets/propertyfinder.jpeg',
     animation: 'clapping',
   },
