@@ -1,6 +1,5 @@
 import { getAssetPath } from '../utils';
 
-
 const Footer = () => {
   return (
     <footer className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
@@ -11,7 +10,7 @@ const Footer = () => {
       </div>
 
       <div className="flex gap-3">
-        <a href="https://github.com/HaifaAljundi" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/haifa-jundi" target="_blank" rel="noopener noreferrer">
           <div className="social-icon">
             <img src={getAssetPath('assets/github.svg')} alt="GitHub" className="w-1/2 h-1/2" />
           </div>

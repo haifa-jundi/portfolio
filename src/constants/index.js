@@ -110,7 +110,7 @@ export const myProjects = [
     desc: 'FutureFix is a predictive maintenance system, was developed using Huawei elevator dataset and LSTM models to forecast maintenance times with 95% accuracy, reducing downtime and enhancing operational efficiency.',
     subdesc:
       'By analyzing data on revolutions, humidity, and vibration, Futurefix utilizes LSTM models to predict maintenance needs. The integration of Gemini API provides contextual insights, ensuring timely interventions and minimizing elevator downtime.',
-    href: 'https://github.com/HaifaAljundi/FutureFix.git',
+    href: 'https://github.com/haifa-jundi/FutureFix.git',
     texture: 'textures/project/project2.mp4',
     logo: 'assets/maintenance-logo.png',
     logoStyle: {
@@ -224,7 +224,7 @@ export const workExperiences = [
     pos: 'Data & AI Engineer',
     duration: 'May 2023 – August 2025',
     title:
-      'Built and operated data and ML pipelines powering analytics and AI use cases at MENA\'s leading property marketplace, with automated testing, validation gates, and CI/CD to production.',
+      "Built and operated data and ML pipelines powering analytics and AI use cases at MENA's leading property marketplace, with automated testing, validation gates, and CI/CD to production.",
     icon: 'assets/propertyfinder.jpeg',
     animation: 'clapping',
   },
